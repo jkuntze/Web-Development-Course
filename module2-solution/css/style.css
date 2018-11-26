@@ -7,9 +7,10 @@
 h1 {
     width: 100%;
     text-align: center; 
+    margin: 20px;
 }
 
-div.section-title {
+.section-title {
     border: 1px solid black;
     width: 75px;
     text-align: center;
@@ -23,31 +24,31 @@ p.description {
     margin: 10px;
 }
 
-div.container {
+.container {
     border: 1px solid black;
     background-color: rgb(194, 241, 241);
     margin: 10px;  
 }
 
-div.item {
-    margin: auto;
-}
-
-#chicken {
+#chicken>.container>.section-title {
     background-color: rgb(231, 151, 77);
 }
 
-#beef {
+#beef>.container>.section-title {
     background-color: brown; 
     color: rgb(255,255,255);
 }
 
-#sushi {
+#sushi>.container>.section-title {
     background-color: burlywood;
 }
 
 .row {
     width: 100%;
+}
+
+.item {
+    margin: auto;
 }
 
 @media (min-width: 992px) {
@@ -116,7 +117,7 @@ div.item {
     .col-md-6 {
         width: 50%;
     }
-    .col-md-6.sushi{
+    .col-md-6#sushi{
         width: 100%;
     }
     .col-md-7 {
