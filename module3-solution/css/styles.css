@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav {
+    background-color: rgb(43, 133, 179);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+#header-nav button:hover{
+    background: white;
+}
+
+.nav-item {
+    background: rgb(168, 160, 160);
+    font-weight: bold;
+    text-align: center;
+}
+
+#page-header {
+    margin: 4vw;
+}
+
+.row h3 {
+    margin: 20px;
+}
+
+.row div div{
+    height: 1000px;
+    background: rgb(168,160,160);
+    overflow: hidden;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.row div div div{
+    height: 88%;
+    margin:0;
+    padding:0;
+}
+
+.row div div span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.row div div span a{
+    color: black;
+    font-weight: bold;  
+}
+
+.row div div span a:hover{
+    text-decoration: none;  
+}
+
+
