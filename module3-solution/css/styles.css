@@ -8,6 +8,12 @@
     background-color: rgb(43, 133, 179);
     border-radius: 0;
     border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav .container-fluid {
+    padding: 0;
 }
 
 .navbar-brand {
@@ -63,9 +69,5 @@
     text-decoration: none;  
 }
 
-#collapsable-nav .nav-item {
-    margin-left: -35px;
-    margin-right:-35px;
-}
 
 
