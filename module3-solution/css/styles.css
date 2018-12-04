@@ -16,6 +16,15 @@
     padding: 0;
 }
 
+#header-nav .navbar-brand {
+    padding-left: 30px;
+}
+
+#header-nav button {
+    margin-right: 30px;
+}
+
+
 .navbar-brand {
     color: black;
 }
