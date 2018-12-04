@@ -63,4 +63,9 @@
     text-decoration: none;  
 }
 
+.nav-item {
+    margin-left: -35px;
+    margin-right:-35px;
+}
+
 
