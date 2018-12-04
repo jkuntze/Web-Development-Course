@@ -63,7 +63,7 @@
     text-decoration: none;  
 }
 
-.nav-item {
+#collapsable-nav .nav-item {
     margin-left: -35px;
     margin-right:-35px;
 }
